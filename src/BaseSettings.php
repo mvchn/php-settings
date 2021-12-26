@@ -42,4 +42,11 @@ abstract class BaseSettings
     {
         return $this->value;
     }
+
+    public function setValue($value) : self
+    {
+        $this->value = $value;
+
+        return $this;
+    }
 }
