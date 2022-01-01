@@ -8,4 +8,9 @@ class Settings extends BaseSettings
     {
         parent::__construct($name, $type, $scope, $value);
     }
+
+    public function setValue($value): BaseSettings
+    {
+        throw new \RuntimeException('Cannot set value');
+    }
 }
