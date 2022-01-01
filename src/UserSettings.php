@@ -1,11 +1,12 @@
 <?php
 
+namespace App;
 
-class UserSettings extends \App\BaseSettings
+class UserSettings extends BaseSettings
 {
     public function __construct(string $name, string $type, int $scope = self::SCOPE_USER, $value = null)
     {
-        \App\BaseSettings::__construct($name, $type, $scope, $value);
+        BaseSettings::__construct($name, $type, $scope, $value);
     }
 
 

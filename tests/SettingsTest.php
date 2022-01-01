@@ -5,7 +5,7 @@ namespace App\Tests;
 use App\BaseSettings;
 use App\Settings;
 use PHPUnit\Framework\TestCase;
-use UserSettings;
+use App\UserSettings;
 
 class SettingsTest extends TestCase
 {
